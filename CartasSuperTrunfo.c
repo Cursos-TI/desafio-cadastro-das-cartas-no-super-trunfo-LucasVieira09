@@ -13,7 +13,7 @@ int main() {
     //====== CARTA 1 ========
     int populacao1, pontosturisticos1;
     float area1, pib1;
-    float densidadepopulacional1, pibpercapita1;
+    double densidadepopulacional1, pibpercapita1;
     char estado1;
     char nomecidade1[50], codigocarta1[10];
    
@@ -63,14 +63,14 @@ int main() {
         printf("A Área é: %.2f KM² \n" , area1);
         printf("O Pib é: %.2f Bilhões \n" , pib1);
         printf("O Pontos  Turísticos é: %d \n" , pontosturisticos1);
-        printf("A Densidade Populacional é: %.2f HAB/KM²\n" , densidadepopulacional1);
-        printf("O Pib per Capita é: %.2f MIL REAIS\n" , pibpercapita1);
+        printf("A Densidade Populacional é: %.2lf HAB/KM²\n" , densidadepopulacional1);
+        printf("O Pib per Capita é: %.2lf MIL REAIS\n" , pibpercapita1);
 
 
         // ==== CARTA2 ====
     int populacao2, pontosturisticos2;
     float area2, pib2;
-    float densidadepopulacional2, pibpercapita2;
+    double densidadepopulacional2, pibpercapita2;
     char estado2, nomecidade2[50], codigocarta2[10];
 
         printf(" ==== CADASTRO DA CARTA2 ==== \n ");
@@ -111,8 +111,8 @@ int main() {
         printf("A Área é: %.2f KM² \n" , area2);
         printf("O Pib é: %.2f Bilhões \n" , pib2);
         printf("O Pontos  Turísticos é: %d \n" , pontosturisticos2);
-        printf("A Densidade Populacional é: %.2f HAB/KM² \n" , densidadepopulacional2);
-        printf("O Pib per Capita é: %.2f MIL REAIS\n" , pibpercapita2);
+        printf("A Densidade Populacional é: %.2lf HAB/KM² \n" , densidadepopulacional2);
+        printf("O Pib per Capita é: %.2lf MIL REAIS\n" , pibpercapita2);
         
         return 0;
 }
